@@ -21,7 +21,7 @@ class App extends React.Component {
         />
         <Statistics statistics={userStatistics} />
         <FriendList friendList={myFriendList} />
-        {/* <TransactionHistory transactionHistory={transactionData}/> */}
+        <TransactionHistory transactionHistory={transactionData}/>
       </React.Fragment>
     );
   }
